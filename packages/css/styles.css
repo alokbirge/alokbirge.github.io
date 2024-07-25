@@ -949,7 +949,7 @@ img {
 }
 
 .footer__bg {
-  background-color:  rgb(246, 163, 68);
+  background-color:  rgb(243, 214, 49);
   padding: 2rem 0 3rem;
 }
 
@@ -969,7 +969,7 @@ img {
 }
 
 .footer__link:hover {
-  color: var(--first-color-lighter);
+  color: gray;
 }
 
 .footer__social {
@@ -978,21 +978,22 @@ img {
 }
 
 .footer__social:hover {
-  color: var(--first-color-lighter);
+  color: rgb(87, 70, 70);
 }
 
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: black;
   margin-top: var(--mb-3);
+  font-style: var(--font-semi-bold);
 }
 
 .footer__title,
 .footer__subtitle,
 .footer__link,
 .footer__social {
-  color: #fff;
+  color: #332b2b;
 }
 
 /*========== SCROLL UP ==========*/
