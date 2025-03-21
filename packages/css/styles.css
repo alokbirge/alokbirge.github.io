@@ -528,8 +528,12 @@ img {
   width: 80%;
 }
 
-.skills__js {
-  width: 60%;
+.skills-js {
+  width: 80%;
+}
+
+.skills__ang {
+  width: 75%;
 }
 
 .skills__wordpress {
@@ -537,9 +541,16 @@ img {
 }
 
 .skills__python {
-  width: 60%;
+  width: 85%;
 }
 
+.skills__kotlin {
+  width: 65%;
+}
+
+.skills__c3 {
+  width: 80%;
+}
 .skills__tab {
   width: 70%;
 }
@@ -949,7 +960,7 @@ img {
 }
 
 .footer__bg {
-  background-color:  rgb(243, 214, 49);
+  background-color:  rgb(246, 163, 68);
   padding: 2rem 0 3rem;
 }
 
@@ -969,7 +980,7 @@ img {
 }
 
 .footer__link:hover {
-  color: gray;
+  color: var(--first-color-lighter);
 }
 
 .footer__social {
@@ -978,22 +989,21 @@ img {
 }
 
 .footer__social:hover {
-  color: rgb(87, 70, 70);
+  color: var(--first-color-lighter);
 }
 
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: black;
+  color: var(--text-color-light);
   margin-top: var(--mb-3);
-  font-style: var(--font-semi-bold);
 }
 
 .footer__title,
 .footer__subtitle,
 .footer__link,
 .footer__social {
-  color: #332b2b;
+  color: #fff;
 }
 
 /*========== SCROLL UP ==========*/
